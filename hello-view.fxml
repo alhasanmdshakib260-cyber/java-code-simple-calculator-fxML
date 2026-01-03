@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxfirst.HelloController">
+
+    <children>
+        <!-- Display -->
+        <TextField fx:id="display" editable="false" layoutX="50" layoutY="20" prefHeight="50" prefWidth="300" />
+
+        <!-- Number buttons -->
+        <Button fx:id="one" layoutX="50" layoutY="90" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="1" />
+        <Button fx:id="two" layoutX="110" layoutY="90" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="2" />
+        <Button fx:id="three" layoutX="174.0" layoutY="90.0" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="3" />
+        <Button fx:id="four" layoutX="50" layoutY="150" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="4" />
+        <Button fx:id="five" layoutX="110" layoutY="150" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="5" />
+        <Button fx:id="six" layoutX="170" layoutY="150" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="6" />
+        <Button fx:id="seven" layoutX="50" layoutY="210" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="7" />
+        <Button fx:id="eight" layoutX="110" layoutY="210" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="8" />
+        <Button fx:id="nine" layoutX="170" layoutY="210" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="9" />
+        <Button fx:id="zero" layoutX="110" layoutY="270" onAction="#handleNumber" prefHeight="50" prefWidth="50" text="0" />
+
+        <!-- Operators -->
+        <Button fx:id="plus" layoutX="250" layoutY="90" onAction="#handleOperator" prefHeight="50" prefWidth="50" text="+" />
+        <Button fx:id="minus" layoutX="310" layoutY="90" onAction="#handleOperator" prefHeight="50" prefWidth="50" text="-" />
+        <Button fx:id="multiply" layoutX="250" layoutY="150" onAction="#handleOperator" prefHeight="50" prefWidth="50" text="*" />
+        <Button fx:id="divide" layoutX="310" layoutY="150" onAction="#handleOperator" prefHeight="50" prefWidth="50" text="/" />
+        <Button fx:id="equal" layoutX="250" layoutY="210" onAction="#handleEqual" prefHeight="50" prefWidth="50" text="=" />
+        <Button fx:id="clearButton" layoutX="310" layoutY="210" onAction="#handleClear" prefHeight="50" prefWidth="50" text="C" />
+        <Button fx:id="offButton" layoutX="250" layoutY="270" onAction="#handleOff" prefHeight="50" prefWidth="110" text="OFF" />
+    </children>
+</AnchorPane>
